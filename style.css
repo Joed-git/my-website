@@ -241,3 +241,58 @@ hr {
         padding-left: 85px;
     }
   }
+
+  @media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top-container {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+
+    .main-column {
+        width: 100%;
+    }
+
+    .top-first-heading {
+        font-size: 30px;
+        padding-top: 50px;
+        padding-left: 0px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .header-image {
+        height: 400px;
+    }
+
+    .profpic {
+        height: 150px;
+    }
+
+    .junior {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .skill-heading {
+        padding-bottom: 40px;
+    }
+
+    .logo {
+        height: 100px;
+        width: 200px;
+        justify-content: center;
+        padding-left: 85px;
+    }
+  }
