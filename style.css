@@ -97,6 +97,10 @@ hr {
     padding-left: 100px;
 }
 
+.second-row {
+    padding-top: 30px;
+}
+
 .bottom-container {
     background-color: black;
     text-align: center;
@@ -170,9 +174,9 @@ hr {
     }
 
     .skills {
-        display: flex;
-        flex-direction: column;
-        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
     }
 
     .skill-heading {
@@ -181,9 +185,9 @@ hr {
 
     .logo {
         height: 100px;
-        width: 200px;
+        width: 150px;
         justify-content: center;
-        padding-left: 60px;
+        padding-left: 5px;
     }
   }
 
@@ -225,9 +229,7 @@ hr {
     }
 
     .skills {
-        display: flex;
-        flex-direction: column;
-        margin: 0;
+        grid-template-columns: 1fr 1fr;
     }
 
     .skill-heading {
@@ -236,9 +238,9 @@ hr {
 
     .logo {
         height: 100px;
-        width: 200px;
+        width: 150px;
         justify-content: center;
-        padding-left: 85px;
+        padding-left: 5px;
     }
   }
 
@@ -291,8 +293,8 @@ hr {
 
     .logo {
         height: 100px;
-        width: 200px;
+        width: 150px;
         justify-content: center;
-        padding-left: 100px;
+        padding-left: 10px;
     }
   }
